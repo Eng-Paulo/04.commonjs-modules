@@ -5,7 +5,6 @@ const dataBase = require("./services/database");
 async function main() {
     console.log('carinhos de compras');
     
-    // Chame a função diretamente, já que foi extraída via desestruturação
 
     getFullName("1", "teclado"); 
 
