@@ -6,11 +6,12 @@ async function main() {
     console.log('carinhos de compras');
     
     // Chame a função diretamente, já que foi extraída via desestruturação
-    getFullName("1", "teclado"); // Correto
 
-    console.log(productType);  // Exibe o objeto productType
+    getFullName("1", "teclado"); 
 
-    dataBase.connectToDataBase("my-data");  // Supondo que isso seja um método válido
+    console.log(productType);  
+
+    dataBase.connectToDataBase("my-data");  
 }
 
 main();
